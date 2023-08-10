@@ -1,0 +1,12 @@
+/* styles.css */
+
+.custom-navbar {
+    background-color: #333;
+    color: white;
+    /* Diğer stiller */
+}
+
+.custom-navbar a {
+    color: crimson;
+    /* Diğer stiller */
+}

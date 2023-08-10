@@ -1,0 +1,21 @@
+<!-- <p>topheading works!</p>
+<div *ngFor="let d of topHeadingDisplay" > {{d.title}}</div>
+
+ -->
+ <!-- Burada x/12 muhabbeti var col-x yazıyon o kadar grid oluyo col-4 satır başı 3 lü grid yapar -->
+<div class="container mt-5 ">
+  <div class="row">
+    <div *ngFor="let d of topHeadingDisplay" class="col-lg-3 col-md-4 col-sm-6 mt-3 mb-3">
+     <div class="box">
+         <img class="image" src="{{ d.urlToImage }}" width="100%" />
+      <h5 class="mt-2 mb-2">
+        {{ d.title }}
+      </h5>
+      <!-- <p>
+        {{ d.description }}
+      </p> -->
+      <a href="{{ d.url }}" class="btn btn-dark btn-sm">Read More</a>
+     </div>
+    </div>
+  </div>
+</div>
